@@ -6,7 +6,7 @@ The MAP function is a critical component of AIMSEngine, designed to provide a co
 
 ## Scope
 
-The MAP function will focus on documenting and managing AI systems, applications, and use cases within the organization, including those developed in-house or integrated from third-party applications.
+The MAP function will focus on documenting and managing AI systems, applications, and use cases within the organization, including those developed in-house or integrated from third-party applications or third-party applications with pre-integrated AI.
 
 ## Core Components of the MAP Function
 
