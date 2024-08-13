@@ -133,6 +133,7 @@ The MAP function will focus on documenting and managing AI systems, applications
 - **AI_Component**
   - ID (unique identifier)
   - Name
+  - Type (model, translator, agent)
   - Description
   - AI_System_ID (foreign key referencing AI_System)
 - **Data_Source**
