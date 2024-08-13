@@ -60,98 +60,99 @@ The MAP function will focus on documenting and managing AI systems, applications
 
 ### Data Model for the MAP Function
 
-[MAP Function]
-|
-+---[AI System Overview]
-|   +--- Use Case
-|   +--- Scope
-|   +--- Users
-|   +--- Groups/Organization
-|   +--- Systems/Apps
-|   +--- Category & Type
-|   +--- Task & Functionality
-|   +--- Methodology Used
-|
-+---[Governance and Compliance]
-|   +--- Assumptions Made
-|   +--- AI Team Participants
-|   +--- AI Auditor Details
-|   +--- AI Insurance Details
-|       +--- Insurer
-|       |    +--- ID (unique identifier)
-|       |    +--- Name
-|       |    +--- Description
-|       |    +--- Contact_Info (address, phone, email)
-|       +--- Policy
-|       |    +--- ID (unique identifier)
-|       |    +--- Name
-|       |    +--- Description
-|       |    +--- Coverage_Type (e.g., liability, property, cyber)
-|       |    +--- Coverage_Amount (monetary value)
-|       |    +--- Deductible (monetary value)
-|       |    +--- Effective_Date
-|       |    +--- Expiry_Date
-|       +--- Claims
-|            +--- ID (unique identifier)
-|            +--- AI_System_ID (foreign key referencing AI_System)
-|            +--- Date
-|            +--- Description
-|            +--- Amount (monetary value)
-|            +--- Status (e.g., open, closed, pending)
-|   +--- Regulatory Compliance Mapping
-|   +--- Ethical Considerations
-|   +--- Policies & Standards
-|
-+---[Performance and Risk Management]
-|   +--- Usage, Goals, Expected Benefits
-|   +--- Costs
-|   +--- Anomaly Impact Assessment
-|   +--- Risk Factors (Anticipated & Non-Anticipated)
-|   +--- Contextual Factors
-|   +--- Incident Reporting and Response
-|
-+---[Lifecycle and Change Management]
-|   +--- AI Actors
-|   |    +--- ID (unique identifier)
-|   |    +--- Name
-|   |    +--- Role
-|   |    +--- AI_System_ID (foreign key referencing AI_System)
-|   +--- Process & Lifecycle
-|   +--- Participants
-|   +--- Versions (Iterations & Application)
-|   +--- Data Provenance and Integrity
-|
-+---[Monitoring and Automation]
-|   +--- Automated Monitoring and Alerts
-|   +--- Prescriptive Actions
-|
-+---[AI System Details]
-    +--- AI_System
-    |    +--- ID (unique identifier)
-    |    +--- Name
-    |    +--- Description
-    |    +--- Category (type, task, functionality)
-    |    +--- Risk_Level (low, medium, high)
-    +--- AI_Component
-    |    +--- ID (unique identifier)
-    |    +--- Name
-    |    +--- Description
-    |    +--- AI_System_ID (foreign key referencing AI_System)
-    +--- Data_Source
-    |    +--- ID (unique identifier)
-    |    +--- Name
-    |    +--- Description
-    |    +--- AI_System_ID (foreign key referencing AI_System)
-    +--- Risk_Factor
-    |    +--- ID (unique identifier)
-    |    +--- Name
-    |    +--- Description
-    |    +--- AI_System_ID (foreign key referencing AI_System)
-    +--- Contextual_Factor
-         +--- ID (unique identifier)
-         +--- Name
-         +--- Description
-         +--- AI_System_ID (foreign key referencing AI_System)
+# MAP Function
+
+## AI System Overview
+- **Use Case**
+- **Scope**
+- **Users**
+- **Groups/Organization**
+- **Systems/Apps**
+- **Category & Type**
+- **Task & Functionality**
+- **Methodology Used**
+
+## Governance and Compliance
+- **Assumptions Made**
+- **AI Team Participants**
+- **AI Auditor Details**
+- **AI Insurance Details**
+  - **Insurer**
+    - ID (unique identifier)
+    - Name
+    - Description
+    - Contact_Info (address, phone, email)
+  - **Policy**
+    - ID (unique identifier)
+    - Name
+    - Description
+    - Coverage_Type (e.g., liability, property, cyber)
+    - Coverage_Amount (monetary value)
+    - Deductible (monetary value)
+    - Effective_Date
+    - Expiry_Date
+  - **Claims**
+    - ID (unique identifier)
+    - AI_System_ID (foreign key referencing AI_System)
+    - Date
+    - Description
+    - Amount (monetary value)
+    - Status (e.g., open, closed, pending)
+- **Regulatory Compliance Mapping**
+- **Ethical Considerations**
+- **Policies & Standards**
+
+## Performance and Risk Management
+- **Usage, Goals, Expected Benefits**
+- **Costs**
+- **Anomaly Impact Assessment**
+- **Risk Factors (Anticipated & Non-Anticipated)**
+- **Contextual Factors**
+- **Incident Reporting and Response**
+
+## Lifecycle and Change Management
+- **AI Actors**
+  - ID (unique identifier)
+  - Name
+  - Role
+  - AI_System_ID (foreign key referencing AI_System)
+- **Process & Lifecycle**
+- **Participants**
+- **Versions (Iterations & Application)**
+- **Data Provenance and Integrity**
+
+## Monitoring and Automation
+- **Automated Monitoring and Alerts**
+- **Prescriptive Actions**
+
+## AI System Details
+- **AI_System**
+  - ID (unique identifier)
+  - Name
+  - Description
+  - Category (type, task, functionality)
+  - Risk_Level (low, medium, high)
+- **AI_Component**
+  - ID (unique identifier)
+  - Name
+  - Description
+  - AI_System_ID (foreign key referencing AI_System)
+- **Data_Source**
+  - ID (unique identifier)
+  - Name
+  - Description
+  - AI_System_ID (foreign key referencing AI_System)
+- **Risk_Factor**
+  - ID (unique identifier)
+  - Name
+  - Description
+  - AI_System_ID (foreign key referencing AI_System)
+- **Contextual_Factor**
+  - ID (unique identifier)
+  - Name
+  - Description
+  - AI_System_ID (foreign key referencing AI_System)
+
 
 ### Implementation Notes
 # Implementation Notes
