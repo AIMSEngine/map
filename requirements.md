@@ -58,11 +58,9 @@ The MAP function will focus on documenting and managing AI systems, applications
 - **Prescriptive Actions:** Utilize AI-driven insights to recommend prescriptive actions in response to detected anomalies.
 - **Monitoring Frequency:** Specify how often the AI system is monitored.
 
-### Data Model for the MAP Function
+## Data Model for the MAP Function
 
-# MAP Function
-
-## AI System Overview
+### AI System Overview
 - **Use Case**
 - **Scope**
 - **Users**
@@ -72,7 +70,7 @@ The MAP function will focus on documenting and managing AI systems, applications
 - **Task & Functionality**
 - **Methodology Used**
 
-## Governance and Compliance
+### Governance and Compliance
 - **Assumptions Made**
 - **AI Team Participants**
 - **AI Auditor Details**
@@ -102,7 +100,7 @@ The MAP function will focus on documenting and managing AI systems, applications
 - **Ethical Considerations**
 - **Policies & Standards**
 
-## Performance and Risk Management
+### Performance and Risk Management
 - **Usage, Goals, Expected Benefits**
 - **Costs**
 - **Anomaly Impact Assessment**
@@ -110,7 +108,7 @@ The MAP function will focus on documenting and managing AI systems, applications
 - **Contextual Factors**
 - **Incident Reporting and Response**
 
-## Lifecycle and Change Management
+### Lifecycle and Change Management
 - **AI Actors**
   - ID (unique identifier)
   - Name
@@ -121,11 +119,11 @@ The MAP function will focus on documenting and managing AI systems, applications
 - **Versions (Iterations & Application)**
 - **Data Provenance and Integrity**
 
-## Monitoring and Automation
+### Monitoring and Automation
 - **Automated Monitoring and Alerts**
 - **Prescriptive Actions**
 
-## AI System Details
+### AI System Details
 - **AI_System**
   - ID (unique identifier)
   - Name
@@ -154,8 +152,7 @@ The MAP function will focus on documenting and managing AI systems, applications
   - AI_System_ID (foreign key referencing AI_System)
 
 
-### Implementation Notes
-# Implementation Notes
+## Implementation Notes
 
 ### Integration with ALIA AI
 The MAP function will integrate with ALIA AI to automate the monitoring and analysis of complex temporal data. ALIA AI will be responsible for processing logs, events, and performance metrics, providing real-time insights and recommendations.
